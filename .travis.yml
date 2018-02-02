@@ -1,0 +1,4 @@
+language: c++
+script: cd chapter_1/ && cmake . && make && ./test1
+compiler: 
+  - gcc
